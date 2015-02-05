@@ -1,0 +1,27 @@
+{{#author}}
+<div class="intro" data-align="center">
+	<div class="intro-wrap">
+		<div class="intro-wrap-inner">
+			<div class="welcome-text">
+				<h1>{{name}}</h1>
+				<h3>{{bio}}</h3>
+			</div>
+		</div>
+	</div>
+	{{#if cover}}
+		<div class="intro-background" style="background-image: url({{cover}})"
+			data-bottom-top="transform: translate3d(0px,-200px, 0px);"
+			data-top-bottom="transform: translate3d(0px,200px, 0px);"
+			data-center="transform: translate3d(0px,0px, 0px);">
+		</div>
+	{{else}} 
+		{{#if @blog.cover}}
+		<div class="intro-background" style="background-image: url({{@blog.cover}})"
+			data-bottom-top="transform: translate3d(0px,-200px, 0px);"
+			data-top-bottom="transform: translate3d(0px,200px, 0px);"
+			data-center="transform: translate3d(0px,0px, 0px);">
+		</div>
+		{{/if}}
+	{{/if}}
+</div>
+{{/author}}

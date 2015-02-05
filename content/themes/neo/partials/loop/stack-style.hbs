@@ -1,0 +1,61 @@
+{{#contentFor "customBodyClass"}}loop-stack-style{{/contentFor}}
+<div class="post-list stack-style">    
+    {{#foreach posts}}   
+    <section itemscope itemtype="http://schema.org/BlogPosting" role="article" {{#if @first}} id="start" {{/if}} {{#if @first}}data-author-name="{{author.name}}" data-author-img="{{author.image}}" data-author-bio="{{author.bio}}"{{/if}}>
+        <div class="post-header">            
+            <div class="header-wrap">
+                <div class="post-thumb {{#if image}}has-thumb{{/if}}" {{#if image}}style="background-image: url({{image}})"{{/if}}>                
+                    <h2 itemprop="name" class="post-title">
+                        <a itemprop="url" href="{{url}}">{{{title}}}</a>
+                    </h2>
+                </div>
+                <div class="post-meta">
+                    {{#if featured}}
+                    <span>
+                        <i class="fa fa-star"></i> Featured
+                    </span>
+                    {{/if}}
+                    <span><i class="fa fa-user"></i> {{author}}</span>
+                    {{#if tags}}
+                    <span><i class="fa fa-tags"></i> {{tags separator=", "}}</span>
+                    {{/if}}
+                    <span>
+                        <i class="fa fa-calendar-o"></i>
+                        <time datetime="{{date published_at format="YYYY-MM-DD"}}" itemprop="datePublished">
+                            {{date published_at timeago="true"}}
+                        </time>
+                    </span>
+                </div>                
+                <div itemprop="description" class="post-excerpt">
+                    {{#isPhotoAlbum}}
+                    {{else}}
+                        {{excerpt words="40"}}
+                    {{/isPhotoAlbum}}
+                </div>
+                <div class="post-action">
+                    <a href="{{url}}" class="read-more">     
+                    {{#isPhotoAlbum}}
+                    See Photos <i class="fa fa-angle-right"></i>
+                    {{else}}
+                    Read More <i class="fa fa-angle-right"></i>
+                    {{/isPhotoAlbum}}                       
+                        
+                    </a>
+                </div>
+                {{#unless image}}
+                <div class="temp-content">
+                    {{content words="0"}}
+                </div>
+                {{/unless}}
+            </div>            
+        </div>        
+    </section>
+    {{/foreach}}
+</div>
+{{#if pagination}}
+<section class="pagination-section">
+    <div class="pagination-wrap">
+        {{pagination}}  
+    </div>
+</section>
+{{/if}}

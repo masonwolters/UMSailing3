@@ -1,0 +1,51 @@
+{{#contentFor "customBodyClass"}}loop-box-style{{/contentFor}}
+<div class="post-list box-style">    
+    {{#foreach posts}}   
+    <section itemscope itemtype="http://schema.org/BlogPosting" role="article" {{#if @first}} id="start" {{/if}} {{#if @first}}data-author-name="{{author.name}}" data-author-img="{{author.image}}" data-author-bio="{{author.bio}}"{{/if}}>
+        <div class="post-header {{#if image}}has-background{{/if}}" {{#if image}}style="background-image: url({{image}})"{{/if}}>            
+            <div class="header-wrap">
+                <h2 itemprop="name" class="post-title">
+                    <a itemprop="url" href="{{url}}">{{{title}}}</a>
+                </h2>
+                <div class="post-meta">
+                    {{#if featured}}
+                    <span>
+                        <i class="fa fa-star"></i> Featured
+                    </span>
+                    {{/if}}
+                    <span><i class="fa fa-user"></i> {{author}}</span>
+                    {{#if tags}}
+                    <span><i class="fa fa-tags"></i> {{tags separator=", "}}</span>
+                    {{/if}}
+                    <span>
+                        <i class="fa fa-calendar-o"></i>
+                        <time datetime="{{date published_at format="YYYY-MM-DD"}}" itemprop="datePublished">
+                            {{date published_at timeago="true"}}
+                        </time>
+                    </span>
+                </div>                
+                <div itemprop="description" class="post-excerpt">
+                    {{excerpt words="40"}}
+                </div>
+                <div class="post-action">
+                    <a href="{{url}}" class="read-more">                            
+                        Read More <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+                {{#unless image}}
+                <div class="temp-content">
+                    {{content words="0"}}
+                </div>
+                {{/unless}}
+            </div>            
+        </div>        
+    </section>
+    {{/foreach}}
+</div>
+{{#if pagination}}
+<section class="pagination-section">
+    <div class="pagination-wrap">
+        {{pagination}}  
+    </div>
+</section>
+{{/if}}

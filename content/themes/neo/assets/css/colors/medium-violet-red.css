@@ -1,0 +1,35 @@
+::selection {
+	background-color: #c71585;
+	color: #fff;
+}
+.pace .pace-progress {
+  	background-color: #c71585;
+}
+.pace .pace-progress-inner {  	
+  	box-shadow: 0 0 10px #c71585, 0 0 5px #c71585;  	
+}
+.pace .pace-activity {
+  	border-top-color: #c71585;
+  	border-left-color: #c71585;
+}
+.progress-bar{
+	background-color: #c71585;
+}
+.main-wrap::after{	
+	background-color: #c71585;
+}
+.post-template .body-content a,
+.page-template .body-content a{
+	color: #c71585;
+}
+.post-content .resume-col .progress.skill .progress-bar-skill{
+	background-color: #c71585;
+}
+.post-content a,
+.post-content a:hover,
+.post-content a:focus{
+	color: #c71585;
+}
+.pagination-section .pagination a:hover{
+	background-color: #c71585;
+}

@@ -1,0 +1,33 @@
+<div class="intro" data-align="center">
+	<div class="intro-wrap">
+		<div class="intro-wrap-inner">
+			<div class="welcome-text">
+				<h1 class="post">{{{title}}}</h1>
+				<div class="post-meta">
+					{{#if featured}}
+	                <span>
+	                    <i class="fa fa-star"></i> Featured
+	                </span>
+	                {{/if}}
+                    <span><i class="fa fa-user"></i> {{author}}</span>
+                    {{#if tags}}
+                    <span><i class="fa fa-tags"></i> {{tags separator=", "}}</span>
+                    {{/if}}
+                    <span>
+                        <i class="fa fa-calendar-o"></i>
+                        <time datetime="{{date published_at format="YYYY-MM-DD"}}" itemprop="datePublished">
+                            {{date published_at timeago="true"}}
+                        </time>
+                    </span>
+                </div> 
+			</div>
+		</div>
+	</div>
+	{{#if image}}
+	<div class="intro-background" style="background-image: url({{image}})"
+		data-bottom-top="transform: translate3d(0px,-200px, 0px);"
+		data-top-bottom="transform: translate3d(0px,200px, 0px);"
+		data-center="transform: translate3d(0px,0px, 0px);">
+	</div>
+	{{/if}}
+</div>

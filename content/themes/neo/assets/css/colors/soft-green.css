@@ -1,0 +1,35 @@
+::selection {
+	background-color: #5AAC7B;
+	color: #fff;
+}
+.pace .pace-progress {
+  	background-color: #5AAC7B;
+}
+.pace .pace-progress-inner {  	
+  	box-shadow: 0 0 10px #5AAC7B, 0 0 5px #5AAC7B;  	
+}
+.pace .pace-activity {
+  	border-top-color: #5AAC7B;
+  	border-left-color: #5AAC7B;
+}
+.progress-bar{
+	background-color: #5AAC7B;
+}
+.main-wrap::after{	
+	background-color: #5AAC7B;
+}
+.post-template .body-content a,
+.page-template .body-content a{
+	color: #5AAC7B;
+}
+.post-content .resume-col .progress.skill .progress-bar-skill{
+	background-color: #5AAC7B;
+}
+.post-content a,
+.post-content a:hover,
+.post-content a:focus{
+	color: #5AAC7B;
+}
+.pagination-section .pagination a:hover{
+	background-color: #5AAC7B;
+}

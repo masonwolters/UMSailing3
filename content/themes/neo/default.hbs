@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <link href="{{asset "img/favicon.ico"}}" rel="shortcut icon" type="image/x-icon">
+    <link href="{{asset "img/apple-touch-icon-precomposed.png"}}" rel="apple-touch-icon">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    <meta name="google-site-verification" content=""> {{! Change for Google Webmaster verification }}
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> {{! Change google font here }}    
+    <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/font-awesome.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/magnific-popup.css"}}"/>    
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />   
+    <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/colors/default.css"}}" /> {{! Change color scheme here }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/custom.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/jquery.fancybox.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/jquery.fancybox-thumbs.css"}}" />
+    {{ghost_head}}
+    <script type="text/javascript"> var rootUrl = '{{@blog.url}}';</script>        
+    {{! Place your Google Analytic here }}
+</head>
+<body class="{{body_class}} {{block "customBodyClass"}} {{block "customHeaderClass"}}"
+    data-site-layout="wide" {{!Site Layout Options: change it to 'boxed' or 'wide'  }}
+    data-sidebar-align="left" {{!Sidebar Position Options: change it to 'left' or 'right'  }}
+    data-parallax="true" {{!Parallax scrolling options: change it to 'true' or 'false'  }}
+    data-uppercase="true" {{!Uppercase style: change it to 'true' or 'false'  }}
+    >    
+    <div id="fb-root"></div>
+    <!--[if lt IE 9]>
+    <div class="outdated-frame">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://www.google.com/chrome/intl/en/landing_chrome.html">upgrade your browser</a>.
+    </div>
+    <![endif]-->    
+    <div class="body-wrap">  
+		{{! Change your header type here, include:
+            + header/bar
+            + header/bar-mini-nav
+            + header/bar-standard-nav
+            + header/clean
+            + header/clean-mini-nav
+            + header/clean-standard-nav
+        }}    
+        {{>header/clean-standard-nav}}  
+        {{{body}}}        
+        {{>footer/default}}  
+    </div>
+	{{ghost_foot}}
+    {{! The main JavaScript file for NEO }}    
+    <script type="text/javascript" src="{{asset "js/bootstrap.min.js"}}"></script>        
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>            
+    <script type="text/javascript" src="{{asset "js/jquery.magnific-popup.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jqBootstrapValidation.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/imagesloaded.pkgd.min.js"}}"></script>    
+    <script type="text/javascript" src="{{asset "js/prism.js"}}" data-default-language="markup"></script>    
+    <script type="text/javascript" src="{{asset "js/pace.min.js"}}"></script>    
+    <script type="text/javascript" src="{{asset "js/jquery.placeholder.js"}}"></script>    
+    <script type="text/javascript" src="{{asset "js/skrollr.min.js"}}"></script>    
+    <script type="text/javascript" src="{{asset "js/jquery.flickr.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jribbble.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jquery.instagram.js"}}"></script>    
+    <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jquery.fancybox.pack.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/helpers/jquery.fancybox-thumbs.js"}}"></script>
+    {{{block "customScript"}}}
+</body>
+</html>

@@ -1,0 +1,36 @@
+<div class="header header-bar">
+	<div class="header-wrap">
+		<div class="logo-container">
+			{{#if @blog.logo}}
+				<a class="logo" href="{{@blog.url}}">
+					<img src="{{@blog.logo}}" alt="{{@blog.title}}" title="{{@blog.title}}"/>
+				</a>
+			{{else}}
+				<a class="logo text" href="{{@blog.url}}">{{@blog.title}}</a>
+			{{/if}}
+		</div>	
+		<div class="nav-container">						
+			<ul class="standard-nav sf-nav">
+				{{>misc/menu-items}}
+			</ul>										
+		</div>
+		<div class="addition-container">
+			{{>misc/social-icons}}			
+			<a class="search-button" href="javascript:;">
+				<i class="fa fa-search"></i>
+			</a>
+			<a class="mobile-nav-button" href="javascript:;">
+				<span>
+					Navigation
+				</span>
+			</a>
+			<div class="search-container">
+				<div class="search-container-wrap">
+					<input type="search" name="search-keyword" id="search-keyword" placeholder="Type and hit enter!"/>
+					<ul class="search-result"></ul>
+				</div>
+			</div>			
+		</div>
+		
+	</div>
+</div>
