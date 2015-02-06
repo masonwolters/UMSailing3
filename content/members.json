@@ -1,0 +1,487 @@
+{
+	"executiveBoard": [
+		"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+	],
+	"people": [
+		{
+			"id": "1",
+			"name": "Chris Cyr",
+			"year": "2016",
+			"role": "Co-Captain",
+			"major": "BS Neuroscience and Physics Minor",
+			"email": "chriscyr@umich.edu",
+			"bio": "Chris grew up in Grosse Pointe, MI, sailing in Bayview Yacht Club's junior sailing program for ten years. After that, he moved into sailing for Grosse Pointe North, and was co-captain during his junior and senior years. Beginning at age 13, he also began sailing in keelboats. He has completed 5 Port Huron to Mackinac Races, along with many shorter distance races, and competes in numerous match racing events each year. During his time at Michigan, he hopes to improve his skills as a bowman, and to become an accomplished skipper in dinghies.",
+			"image": "/content/images/2015/02/chris_square.jpg"
+		},
+		{
+			"id": "2",
+			"name": "Tom Etheridge",
+			"year": "2016",
+			"role": "Co-Captain",
+			"major": "Naval Architecture and Marine Engineering",
+			"email": "tleth@umich.edu",
+			"bio": "Tom is from Norfolk, Virginia and is currently at U of M to study Naval Architecture.  He grew up sailing optis but as soon as he could switched to FJs because he struggled to fit inside the smaller boats.  He sailed on his high school team all through middle and high school.  Joining the Michigan Sailing Team has pushed him into racing Lasers, keelboats, and match racing in addition to 420s and FJs, and he can't wait to help get the team to the next level of college sailing.",
+			"image": "/content/images/2015/02/tom_square.jpg"
+		},
+		{
+			"id": "3",
+			"name": "Tyler Davidson",
+			"year": "2017",
+			"role": "Treasurer",
+			"major": "Business",
+			"email": "tylerdav@umich.edu",
+			"bio": "Tyler comes from Rye, NY and started sailing with the Rye Country Day Sailing Team during high school. Although he got a late start into the world of sailing (he's never sailed an opti), Tyler grew up on the water and has cruised extensively on the East Coast with his family in powerboats. When he is not sailing with the team, he sails at American Yacht Club in a range of boats including lasers, C420s and sport-boats.",
+			"image": "/content/images/2015/02/tyler_square.jpg"
+		},
+		{
+			"id": "4",
+			"name": "Mitch Kimball",
+			"year": "2017",
+			"role": "Long-Term Fundraising Chair",
+			"major": "Business",
+			"email": "mdkimbal@umich.edu",
+			"bio": "Mitch is a sophomore on the team and was born and raised in the Midwest. He grew up with the University of Michigan in his backyard and frequented Baseline Lake with his parents well-before he ever imagined joining the Sailing Team that called that lake its home. Mitch has never sailed an Opti. His dad first taught him how to sail on a Hobie Wave and Laser Pico on Portage Lake at the Portage Yacht Club -- right next door to the UM Sailing Club. Since his high school didn't have a sailing team, Mitch competed in the Interlake and Laser racing series at Portage Lake. He later went on to takeover the Head Sailing Instructor position at PYC and revived the junior racing events hosted on Portage Lake. Mitch looks forward to serving as the Team's Financial Officer, and is excited to start building the Team's endowment to ensure sailing at Michigan stays active for years to come. ",
+			"image": "/content/images/2015/02/mitch_square.jpg"
+		},
+		{
+			"id": "5",
+			"name": "Lane Tobin",
+			"year": "2018",
+			"role": "Short-Term Fundraising Chair",
+			"major": "Undecided Engineering",
+			"email": "tobinl@umich.edu",
+			"bio": "Lane hails from Ridgefield, CT and grew up sailing on her Dad’s J/24.  Beginning at age eight, she spent her summers on Long Island Sound at Noroton Yacht Club sailing optis and lasers in their junior program. She has also spent a lot of time on big boats, participating in the Noroton big boat program and sailing aboard her families boat, Frøya. After high school, she lived aboard Frøya, for nine months with her family cruising the east coast of the United States, the Caribbean, and the Bahamas. Lane is looking forward to sailing this spring with the team and improving her team racing skills.",
+			"image": "/content/images/2015/02/lane_square.jpg"
+		},
+		{
+			"id": "6",
+			"name": "Braden Engstrom",
+			"year": "2016",
+			"role": "Rec Sports Liaison",
+			"major": "Classical Languages and Literature",
+			"email": "bengstro@umich.edu",
+			"bio": "Braden grew up in Marblehead, MA where he first sailed at Pleon Yacht Club. After quickly outgrowing optis, he chose to spend his summers casually sailing to make more time for baseball. He has become the director of the Children's Island Sailing Camp after working as a counselor there for three years. Braden has fallen in love with the team, whether it be sailing on the lake or driving all night to Annapolis. he hopes to improve as a dinghy sailor while also getting more involved with big boat racing.",
+			"image": "/content/images/2015/02/braden_square.jpg"
+		},
+		{
+			"id": "7",
+			"name": "DJ Litts",
+			"year": "2018",
+			"role": "Regatta Chair/MCSA Liaison",
+			"major": "Undecided Engineering",
+			"email": "littsdj@umich.edu",
+			"bio": "DJ was born in northern Virginia and spent much of his early years on his parents sailboat cruising around the Chesapeake Bay. At 9 years old, DJ and his parents spent a summer cruising their sailboat to Holland Michigan, where DJ finished his primary and secondary education. While in Holland, DJ learned to race dinghies at Macatawa Bay Yacht Club’s sailing school. Since then, he has become a coach at the same sailing school and has been passing on his love for the sport to the next generation. He has spent a lot of time in the Laser Radial class, competing in many minor western Michigan regattas. When he is not sailing, he enjoys playing basketball, hanging out with friends, or pretty much anything that involves swimming or being in water. ",
+			"image": "/content/images/2015/02/dj_square.jpg"
+		},
+		{
+			"id": "8",
+			"name": "Zachary Nerod",
+			"year": "2017",
+			"role": "Social and Recruitment Chair",
+			"major": "Program in the Environment, Economics Minor",
+			"email": "zachnero@umich.edu",
+			"bio": "Zach is from Fairfield, CT, but grew up sailing every summer in Down East Maine, where the real lobster comes from. He's a sophomore in the Program in the Environment, with a minor in Economics. He's loved every minute since joining the sailing team, and is looking forward to running the team in the coming year, and hopefully expand into big boat racing.",
+			"image": "/content/images/2015/02/zach_square.jpg"
+		},
+		{
+			"id": "9",
+			"name": "Alison Bradley",
+			"year": "2016",
+			"role": "Secretary",
+			"major": "Spanish",
+			"email": "albrad@umich.edu",
+			"bio": "Alison Bradley is from Rockford, Illinois, a city not very familiar to the sport of sailing. She picked up sailing the summer before her freshman year of college and was really excited to join the team and start racing in the fall. Alison enjoys traveling to dinghy and big boat events across the country during the season and has recently stopped pretending to have a life outside of the sailing team. She hopes to continue improving her skills as a sailor and to help the team grow even more in the future!",
+			"image": "/content/images/2015/02/alison_square.jpg"
+		},
+		{
+			"id": "10",
+			"name": "Sarah Sloan",
+			"year": "2016",
+			"role": "Media Chair",
+			"major": "Program in the Environment",
+			"email": "sloanse@umich.edu",
+			"bio": "Sarah grew up in Petoskey, Michigan and learned how to casually sail on sunfish, butterflies, and JYs on Walloon Lake. While working on the sailing staff at Camp Daggett the past four summers, Sarah's love and interest in sailing grew and she decided to join the team when she came to Michigan as a freshman. She has greatly enjoyed learning how to sail competitively as well as how to be comfortable while squeezed between two other people in the backseat of a car for endless hours during car rides to regattas. Sarah looks forward to helping the team develop and grow into the Harvard (sailing program) of the west.",
+			"image": "/content/images/2015/02/sarah_square.jpg"
+		},
+		{
+			"id": "11",
+			"name": "Kirsten Boelkins",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "12",
+			"name": "Taylor Bradford",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "13",
+			"name": "Alex Mayo",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "14",
+			"name": "Max Odena",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "15",
+			"name": "Alexander Ramos",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "16",
+			"name": "Kathryn Ried",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "17",
+			"name": "Andrew Roth",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "18",
+			"name": "Connor Shope",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "19",
+			"name": "Emily Tunila",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "20",
+			"name": "Kendall Witmer",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "21",
+			"name": "Elizabeth Wallace",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "22",
+			"name": "Jason Doyle",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "23",
+			"name": "Ryan Seago",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Zachary Frankel",
+			"year": "2015",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "25",
+			"name": "Emily Gazall",
+			"year": "2016",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "26",
+			"name": "Taylor Landeryou",
+			"year": "2016",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "27",
+			"name": "Abby Rogers",
+			"year": "2016",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "28",
+			"name": "James Hewitt",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "29",
+			"name": "Nicholas Lipinski",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "30",
+			"name": "Hubbard Velie",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "31",
+			"name": "Meredith Wiles",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "32",
+			"name": "Benjamin Jepsen",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "33",
+			"name": "Tommy Lewis",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "34",
+			"name": "Lindsay Ford",
+			"year": "2017",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Allison Roth",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Annie Zalon",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Chris Chiaravalli",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Claire Yerman",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Delaney Hodge",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Hellen Galliani",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Flaminia Carfanga",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Hannah Maier",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Joe Donohue",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Kate van Loveren",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Mason Wolters",
+			"year": "2018",
+			"role": "",
+			"major": "Computer Science",
+			"email": "",
+			"bio": "",
+			"image": "/content/images/2015/02/mason_square.jpg"
+		},
+		{
+			"id": "24",
+			"name": "Michael Gapuz",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Sally Smith",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		},
+		{
+			"id": "24",
+			"name": "Sydney Thompson",
+			"year": "2018",
+			"role": "",
+			"major": "",
+			"email": "",
+			"bio": "",
+			"image": ""
+		}
+	]
+}
