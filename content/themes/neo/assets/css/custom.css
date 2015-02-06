@@ -10,9 +10,15 @@
 }
 
 .profilePicture {
-	width: 150px;
+	width: 35%;
+	max-width: 200px;
 	float: right;
 	margin-left: 20px;
+
+	border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 .profileContainer {
@@ -30,3 +36,21 @@
 	overflow: hidden;
 }
 
+.modal-header {
+	padding: 0px;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+
+	border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -khtml-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+
+.modal-header img {
+	width: 100%;
+/*	height: 400px;
+*/}

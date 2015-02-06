@@ -614,6 +614,7 @@ var sfApp={
                 }
             }
         });
+        initMembers();
         // Init list media
         if( $( '.post-list section .temp-content' ).length ) {
             $( '.post-list section .temp-content' ).each(function(){                

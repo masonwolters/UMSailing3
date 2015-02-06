@@ -4,7 +4,11 @@
 <div class="main-wrap">	    
 	<main class="body-content" role="main">
 	    <div class="post-content">
-	    	{{content}}	    		    		
+	    	{{#isMembersPage}}
+				{{>members/members}}
+	    	{{else}}
+		    	{{content}}	    		    		
+	    	{{/isMembersPage}}
 	    </div>	    
 	</main>
 	{{>sidebar/no-nav}}

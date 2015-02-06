@@ -1,0 +1,33 @@
+<h1>Executive Board</h1>
+
+{{#eachEB}}
+	<strong>{{#ebTitle}}{{/ebTitle}}</strong><br>
+	<em>{{major}}</em><br>
+	<a href="mailto:{{email}}">{{email}}</a><br><br>
+
+	<div class="profileContainer">
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="{{image}}"><img class="profilePicture" src="{{image}}"/></a>
+	{{bio}}
+	</div><br/><br>
+{{/eachEB}}
+
+<h1>Team Roster</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Year</th>
+			<th>Major</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#eachPerson}}
+			<tr class="membersRow" data-pid="{{id}}">
+				<td><a class="memberName" style="cursor: pointer" data-json='{{#stringify this}}{{/stringify}}'>{{name}}</a></td>
+				<td><div>{{year}}</div></td>
+				<td><div>{{major}}</div></td>
+			</tr>
+		{{/eachPerson}}
+	</tbody>
+</table>

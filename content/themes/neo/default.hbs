@@ -50,6 +50,9 @@
         {{>header/clean-standard-nav}}  
         {{{body}}}        
         {{>footer/default}}  
+        <div class="modal modal-large fade" id="modal">
+
+        </div>
     </div>
 	{{ghost_foot}}
     {{! The main JavaScript file for NEO }}    
@@ -68,6 +71,10 @@
     <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fancybox.pack.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/helpers/jquery.fancybox-thumbs.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/underscore-min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/backbone-min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/members.js"}}"></script>
+
     {{{block "customScript"}}}
 </body>
 </html>

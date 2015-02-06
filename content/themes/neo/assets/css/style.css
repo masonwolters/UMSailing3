@@ -1435,8 +1435,8 @@ body[data-sidebar-align="right"] .post-content{
 .post-content table thead td,
 .post-content table thead th,
 .post-content table tfoot td {    
-    border: 1px solid #20252B;
-    font-weight: bold;
+/*    border: 1px solid #20252B;
+*/    font-weight: bold;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #EAEDEE;
@@ -1444,8 +1444,8 @@ body[data-sidebar-align="right"] .post-content{
 }
 .post-content table tbody td,
 .post-content table tbody th{
-    border: 1px solid #20252B;
-	padding:5px 15px;
+/*    border: 1px solid #20252B;
+*/	padding:5px 15px;
 }
 .share-box{
 	text-align: center;
